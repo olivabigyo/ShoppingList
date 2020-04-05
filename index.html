@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Shopping List</h1>
+    </header>
+    <main>
+        <form>
+            <label for="item-to-add"></label>
+            <input type="text" name="item-to-add" id="item-to-add">
+            <button id="add-button" for="item-to-add">Add</button>
+        </form>
+            <div id="list"></div>
+            <div class="extras">
+                <button id="markAllCompleted"><img src="images/check-circle.svg" alt="A check mark in a circle">Mark all as completed</button>
+                <button id="clearCompleted"><img src="images/trash-2.svg" alt="A trash can">Clear completed</button>
+            </div>
+    </main>
+    <footer>
+        <small>Made with ❤️ and coffee!</small>
+      </footer>
+    <script src="code.js"></script>
+</body>
+</html>
